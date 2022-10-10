@@ -1,0 +1,38 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    min-height: 75px;
+    align-items: center;
+    width: 90%;
+    padding: 0px 20px;
+}
+.logo{
+    width: 60vh;
+}
+.logo-img{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.li-menu{
+
+color: #fff;
+
+}
+.li-menu>a{
+    color: #000;
+    text-decoration: none;
+}
+
+
