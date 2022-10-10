@@ -5,6 +5,7 @@
     min-height: 75px;
     align-items: center;
     width: 90%;
+    top: 0;
     padding: 0px 20px;
 }
 .logo{
@@ -17,20 +18,19 @@
     height: 100%;
     max-width: 300px;
 }
-.menu{
+#nav-bar{
+
+   
+}
+ul{
+     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    list-style-type: none;
 }
 
-.li-menu{
-
-color: #fff;
-
-}
-.li-menu>a{
+.nav-link{
     color: #000;
     text-decoration: none;
 }

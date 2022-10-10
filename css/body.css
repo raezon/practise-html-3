@@ -2,3 +2,7 @@ body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
 }
+
+#main{
+    position: relative;
+}
